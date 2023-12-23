@@ -1,4 +1,11 @@
-export const contractABI = [
+export const contractABI =[
+	{
+		"inputs": [],
+		"name": "deposit",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
 	{
 		"inputs": [
 			{
