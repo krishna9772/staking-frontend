@@ -1,11 +1,4 @@
-export const contractABI =[
-	{
-		"inputs": [],
-		"name": "deposit",
-		"outputs": [],
-		"stateMutability": "payable",
-		"type": "function"
-	},
+export const contractABI = [
 	{
 		"inputs": [
 			{
@@ -15,6 +8,26 @@ export const contractABI =[
 			}
 		],
 		"name": "addOwner",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "depositETH",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_amount",
+				"type": "uint256"
+			}
+		],
+		"name": "depositUSDT",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
